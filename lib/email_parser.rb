@@ -7,7 +7,7 @@ class EmailAddressParser
     @cvs_data = @cvs_data
   end 
 
- 
+  
 
 
 # Build a class EmailParser that accepts a string of unformatted 
