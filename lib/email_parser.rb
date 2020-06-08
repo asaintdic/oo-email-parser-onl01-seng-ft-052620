@@ -1,9 +1,9 @@
 class EmailAddressParser
-  attr_accessor :name, cvs_
+  attr_accessor :name, :cvs_data
   
-  csv_data
   
-  def parse(cvs_data)
+  
+  def initialize(cvs_data)
     
 end 
 
