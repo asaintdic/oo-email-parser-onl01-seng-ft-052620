@@ -1,4 +1,4 @@
-class EmailAddressParser
+class EmailParser
   attr_accessor :name, :cvs_data
   
   
