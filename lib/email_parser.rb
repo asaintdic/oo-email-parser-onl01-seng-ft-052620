@@ -1,5 +1,5 @@
 class EmailAddressParser
-  attr_accessor :name :email
+  attr_accessor :name, cvs_emails
   
   csv_data
   
