@@ -1,5 +1,8 @@
 class EmailParser
+  attr_accessor
   
+  
+  CSV
 end 
 # Build a class EmailParser that accepts a string of unformatted 
 # emails. The parse method on the class should separate them into
