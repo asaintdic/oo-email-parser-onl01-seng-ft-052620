@@ -4,9 +4,10 @@ class EmailAddressParser
   
   
   def initialize(cvs_data)
-    
-end 
+    @cvs_data = @cvs_data
+  end 
 
+ 
 
 
 # Build a class EmailParser that accepts a string of unformatted 
