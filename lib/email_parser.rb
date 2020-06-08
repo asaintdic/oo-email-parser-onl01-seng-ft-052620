@@ -4,10 +4,17 @@ class EmailAddressParser
   
   
   def initialize(cvs_data)
-    @cvs_data = @cvs_data
+    @cvs_data = cvs_data
   end 
 
-  
+  def parse
+   csv_data.split.collect do |eaddress|
+     eaddress.split(',')
+   end
+   .flatten.uniq
+ end
+end
+
 
 
 # Build a class EmailParser that accepts a string of unformatted 
