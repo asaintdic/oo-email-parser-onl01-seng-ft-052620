@@ -1,3 +1,17 @@
+class EmailParser
+  attr_accessor :cvs
+  
+  def initialize(cvs)
+    @cvs = cvs
+  end
+  
+  def parse
+    @cvs = @cvs.gsub(/[\s,]/ ," ").split
+    
+    @cvs.uniq
+  end
+  
+end
 
 
 
