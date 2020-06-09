@@ -1,4 +1,4 @@
-class EmailParser
+class EmailAddressParser
   attr_accessor :cvs
   
   def initialize(cvs)
